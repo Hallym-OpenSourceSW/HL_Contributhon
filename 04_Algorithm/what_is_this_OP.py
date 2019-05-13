@@ -1,11 +1,11 @@
 ## 다음 정의된 operator가 하는 기능은 무엇인가?
 
-def operator(x, y):
+def operator(xinput, yinput):
 
-    while y:
-        carry = x & y
-        x = x ^ y
-        y = carry << 1
-    return x
+    while yinput:
+        ca = xinput & yinput
+        xinput = xinput ^ yinput
+        yinput = ca << 1
+    return xinput
 
 # 답: XX
