@@ -20,10 +20,10 @@ collection = [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 8
 key = 22
 
 start = timeit.default_timer()
-collection = search(collection, key)
+index = search(collection, key)
 stop = timeit.default_timer()
 print(stop - start)
-print(collection)
+print(index)
 
 
 # 나의 수행 시간
