@@ -1,4 +1,6 @@
 ## Sorting Algorithm 만들기
+## 첫번째 기여자 10점
+## 매 성능 향상시 2점
 import timeit
 
 
