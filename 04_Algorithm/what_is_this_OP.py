@@ -3,9 +3,10 @@
 def operator(xinput, yinput):
 
     while yinput:
-        ca = xinput & yinput
-        xinput = xinput ^ yinput
-        yinput = ca << 1
+        ca = xinput & yinput #and 연산자
+        xinput = xinput ^ yinput #xor 연산자
+        yinput = ca << 1 #비트 연산자
     return xinput
 
 # 답: XX
+
