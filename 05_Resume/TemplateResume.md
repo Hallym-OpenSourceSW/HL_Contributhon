@@ -5,7 +5,7 @@
 - 소속: 한림대학교 중국학과 
 
 
-![김도경](여권사진.jpg){: width="5px" height="5px"}{: .center}
+![김도경](여권사진.jpg){: width="5%" height="5%"}{: .center}
 
 
 - 가장 좋아하는 교과목
