@@ -4,3 +4,16 @@
 첫번째 기여자: 10점
 성능 향상 기여자: 5점
 """
+
+def powerOfTwo(n):
+    while n % 2 == 0:
+        n = n / 2
+    return n == 1
+
+
+## for testing
+print(powerOfTwo(2))
+print(powerOfTwo(4))
+print(powerOfTwo(64))
+print(powerOfTwo(512))
+print(powerOfTwo(1023))

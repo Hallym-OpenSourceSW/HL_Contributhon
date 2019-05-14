@@ -10,7 +10,7 @@ def absMax(x):
     """
     j =x[0]
     for i in x:
-        if abs(i) < abs(j):
+        if abs(i) > abs(j): #부등호 수정
             j = i
     return j
 
