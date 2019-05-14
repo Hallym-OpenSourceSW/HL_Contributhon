@@ -10,4 +10,4 @@ def whatisThisFunction(XInput):
     return YOutput
 
 
-# 답: ???
+# 답: 자신 말고 나누어지는 숫자의 갯수를 리턴하는 
