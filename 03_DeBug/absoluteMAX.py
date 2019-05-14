@@ -10,10 +10,11 @@ def absMax(x):
     """
     j =x[0]
     for i in x:
-        if abs(i) < abs(j):
+        if abs(i) > abs(j):
             j = i
     return j
 
 
 a = [1,2,-11]
 print(absMax(a)) # = -11
+
