@@ -8,3 +8,6 @@ def whatisThisFunction(XInput):
         XInput &= (XInput-1)
         YOutput += 1
     return YOutput
+
+
+# 답: ???
