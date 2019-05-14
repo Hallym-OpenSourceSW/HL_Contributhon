@@ -8,4 +8,4 @@ def operator(xinput, yinput):
         yinput = ca << 1
     return xinput
 
-# 답: XX
+# 답: xinput에 yinput만큼 더해서 리턴하는 함수
