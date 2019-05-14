@@ -6,8 +6,20 @@ import timeit
 
 def sort(collection):
   """최고의 성능을 가진 정렬 알고리즘을 만들어 보세요 ! """
-  # Your Code
-  # Your Code
+
+  if len(collection) <= 1:
+    return collection
+  pivot = collection[len(collection) // 2]  # 가장 중간에 있는 값 = pivot을 기준으로 비교
+  less_arr, equal_arr, bigger_arr = [], [], []
+  for num in collection:
+    if num < pivot:
+      less_arr.append(num)
+    elif num > pivot:
+      bigger_arr.append(num)
+    else:
+      equal_arr.append(num)
+
+  collection = sort(less_arr) + equal_arr + sort(bigger_arr)
   return collection
 
 
@@ -22,4 +34,4 @@ print(collection)
 
 
 # 나의 수행 시간
-# 0.001913671999318467
+# 9.784899999999708e-05
