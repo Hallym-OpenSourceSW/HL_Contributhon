@@ -11,6 +11,7 @@ Test Accuracy 성능 향상 시키는 경우 배점 10점 입니다.
 
 ## 결과 Report (이 화일을 수정하고 Pull Request를 통하여 결과를 Report 해주세요)
   - [참가자 이름]: ```Test loss```: ???  / ```Test accuracy```: ???
+  - [20177139/석정로]: ```Test loss```: 2.2068518447875975  / ```Test accuracy```: 0.1734
 
 
 *  *  *
