@@ -14,3 +14,21 @@ def absVal(num)
         return num
 
 print(absVal(-34)) # = 34
+
+
+#수정
+
+def absVal(num):
+    """
+    Function to fins absolute value of numbers.
+    >>absVal(-5)
+    5
+    >>absVal(0)
+    0
+    """
+    if num < 0:
+        return -num
+    else:
+        return num
+
+print(absVal(-34)) # = 34
