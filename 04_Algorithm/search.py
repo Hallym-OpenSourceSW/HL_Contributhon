@@ -27,7 +27,21 @@ index = search(collection, key)
 stop = timeit.default_timer()
 print(stop - start)
 print(index)
-
-
 # 나의 수행 시간
 # 5.434686318039894e-05
+
+
+""" 
+def search(data, key):
+    # collection: Array 데이터
+    # key: 찾고자하는 값
+    i = 0
+    """최고의 성능을 가진 탐색 알고리즘을 만들어 보세요 ! """
+    for i in range(0, len(data)):
+        if collection[i] == key:
+            return i
+
+    return -1  # 찾고자하는 값이 array에 있을때 array의 index를 반환, array에 찾고자하는 값이 없다면 -1 반환
+# 수행시간
+  5.800000000000249e-06
+"""
