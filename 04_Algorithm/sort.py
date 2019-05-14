@@ -21,5 +21,18 @@ print(stop - start)
 print(collection)
 
 
+# 함수
+def sort(collection):
+  """최고의 성능을 가진 정렬 알고리즘을 만들어 보세요 ! """
+  ARRAY_LENGTH = len(collection)
+  if (ARRAY_LENGTH <= 1):
+      return collection
+  else:
+      PIVOT = collection[0]
+      GREATER = [element for element in collection[1:] if element > PIVOT]
+      LESSER = [element for element in collection[1:] if element <= PIVOT]
+      return sort(LESSER) + [PIVOT] + sort(GREATER)
+  return collection
+
 # 나의 수행 시간
-# 0.001913671999318467
+# 0.0012293999999999985
