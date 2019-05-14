@@ -10,4 +10,5 @@ def whatisThisFunction(XInput):
     return YOutput
 
 
-# 답: ???
+# 답: XInput의 나누어지는 숫자의 갯수의 갯수를 구하는 함수(소수 판별기)
+
