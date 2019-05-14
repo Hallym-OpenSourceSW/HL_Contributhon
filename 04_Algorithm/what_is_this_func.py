@@ -10,4 +10,4 @@ def whatisThisFunction(XInput):
     return YOutput
 
 
-# 답: ???
+# 답: 2의 배수인지 확인(2의 배수일 경우 1을 반환)
