@@ -1,6 +1,6 @@
 # 절대값을 찾는 함수 구현 및 테스트입니다. 어디가 잘못된 걸까요 ?
-
-def absVal(num)
+# 함수 앞에 :이없다
+def absVal(num):
     """
     Function to fins absolute value of numbers.
     >>absVal(-5)
