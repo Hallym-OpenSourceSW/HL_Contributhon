@@ -4,3 +4,5 @@
 배점 15점!
 
 성능 향상 시키는 경우 배점 10점 입니다.
+
+시작: *keras_deeplearning.ipynb* 화일을 click 한후에 **Open in Colab** 을 클릭하여 Colab에서 실행시킵니다.
