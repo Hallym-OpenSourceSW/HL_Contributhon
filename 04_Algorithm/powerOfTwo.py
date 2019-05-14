@@ -4,3 +4,18 @@
 첫번째 기여자: 10점
 성능 향상 기여자: 5점
 """
+
+def digitNum(XInput):
+    YOutput = 0
+    while XInput:
+        XInput &= (XInput-1)
+        YOutput += 1
+    return YOutput
+  
+
+N = int(input('N = '))
+
+if (digitNum(N) == 1) :
+  print('OK')
+else :
+  print('NOK')
