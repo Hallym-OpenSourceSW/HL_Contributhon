@@ -8,7 +8,7 @@ def absVal(num)
     >>absVal(0)
     0
     """
-    if Num < 0: # Num -> num
+    if num < 0: # Num -> num
         return -num
     else:
         return num
