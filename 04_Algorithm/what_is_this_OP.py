@@ -1,5 +1,3 @@
-## 다음 정의된 operator가 하는 기능은 무엇인가?
-
 def operator(xinput, yinput):
 
     while yinput:
@@ -8,4 +6,12 @@ def operator(xinput, yinput):
         yinput = ca << 1
     return xinput
 
-# 답: XX
+def test():
+  for i in range(0, 100):
+    for j in range(0, 100):
+      if operator(i, j) != i+j:
+        print("false")
+        
+test()
+
+# 답: 0, 양수 
