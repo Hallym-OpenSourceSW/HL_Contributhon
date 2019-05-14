@@ -1,5 +1,5 @@
 def find_max(nums):
-    max = nums[1]
+    max = nums[0]
     for x in nums:
       if x > max
         max = x
@@ -10,3 +10,5 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+
