@@ -9,8 +9,21 @@
 
 
 def moveZeros(array):
-    cnt_zero = len(list(filter(lambda x: x == 0, array)))
-    without_zero = list(filter(lambda x: x != 0, array))
-    return without_zero + ([0] * cnt_zero)
+    result = []
+    zeros = 0
+
+    for num in array:
+      if str(num).isdigit():
+        if num == 0:
+          zeros += 1
+    
+    for i in range(zeros):
+      array.remove(0)
+    for i in range(zeros):
+      array.append(0)
+      
+    result = array
+    
+    return result
     
 print(moveZeros(["false", 1, 0, 1, 2, 0, 1, 3, "a"]))  ## ['false', 1, 1, 2, 1, 3, 'a', 0, 0]
