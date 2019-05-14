@@ -5,10 +5,13 @@ import timeit
 
 
 def sort(collection):
-  """최고의 성능을 가진 정렬 알고리즘을 만들어 보세요 ! """
-  # Your Code
-  # Your Code
-  return collection
+#   """최고의 성능을 가진 정렬 알고리즘을 만들어 보세요 ! """
+    length = len(collection) - 1
+    for i in range(length):
+        for j in range(length-i):
+            if collection[j] > collection[j+1]:
+                collection[j], collection[j+1] = collection[j+1], collection[j]
+    return collection
 
 
 # 메인 함수
@@ -22,4 +25,4 @@ print(collection)
 
 
 # 나의 수행 시간
-# 0.001913671999318467
+# 0.0011375201866030693
