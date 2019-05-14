@@ -1,9 +1,10 @@
 def average(nums):
     sum = 0
     n = 0
-    for n in nums:
-      sum += x
+    for i in nums:
+      sum += i
       n += 1
+
     avg = sum / n
     print(avg)
 
