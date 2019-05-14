@@ -10,4 +10,4 @@ def whatisThisFunction(XInput):
     return YOutput
 
 
-# 답: ???
+# 답: YOutputdms 이진수의 1을 개수를 세어서 리턴함.
