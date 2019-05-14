@@ -1,18 +1,14 @@
-## Searching Algorithm 만들기
-## 첫번째 기여자 10점
-## 매 성능 향상시 2점
+# Searching Algorithm 만들기
+# 첫번째 기여자 10점
+# 매 성능 향상시 2점
 import timeit
 
 
 def search(collection, key):
-  # collection: Array 데이터
-  # key: 찾고자하는 값
-  
-  """최고의 성능을 가진 탐색 알고리즘을 만들어 보세요 ! """
-  
-  # Your Code
-  # Your Code
-  return index  # 찾고자하는 값이 array에 있을때 array의 index를 반환, array에 찾고자하는 값이 없다면 -1 반환
+  try:
+    return collection.index(key)
+  except:
+    return -1 # 인덱스를 찾을 수 없어 예외가 발생하면 -1 리턴
 
 
 # 메인 함수
