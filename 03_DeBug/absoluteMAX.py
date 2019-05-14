@@ -17,3 +17,16 @@ def absMax(x):
 
 a = [1,2,-11]
 print(absMax(a)) # = -11
+
+
+def absMax(x):
+    max=x[0]
+    for i in x:
+        if abs(i) > max:
+            print("asdasdasasd")
+            max=abs(i)
+    return max
+
+
+a = [1,2,-11]
+print(absMax(a)) # = -11
