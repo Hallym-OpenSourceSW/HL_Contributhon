@@ -14,3 +14,12 @@ def absVal(num)
         return num
 
 print(absVal(-34)) # = 34
+
+def absVal(num):
+    if num < 0:
+        return -num
+    else:
+        return num
+
+
+print(absVal(-34)) # = 34
