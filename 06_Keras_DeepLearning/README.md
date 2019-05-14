@@ -11,3 +11,10 @@ Test Accuracy 성능 향상 시키는 경우 배점 10점 입니다.
 
 ## 결과 Report (이 화일을 수정하고 Pull Request를 통하여 결과를 Report 해주세요)
   - [참가자 이름]: ```Test loss```: ???  / ```Test accuracy```: ???
+
+
+
+## 보너스 문제
+위의 Keras 모델에서 사용하는 MNIST Fashion의 데이터 셋 중, 학습 데이터로 받아온 x_train의 5번째 데이터 (x_train[4])는 어떤 물체의 사진일까요 ?
+
+   - 배점 10점 제공!
