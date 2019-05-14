@@ -10,4 +10,4 @@ def whatisThisFunction(XInput):
     return YOutput
 
 
-# 답: ???
+# 답: 이진수 1의 갯수를 
