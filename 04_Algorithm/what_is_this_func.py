@@ -10,4 +10,4 @@ def whatisThisFunction(XInput):
     return YOutput
 
 
-# 답: ???
+# 답: 2진수
