@@ -2,7 +2,7 @@
 
 def sum_a(a):
     b = 0
-    for i in range(1,a):
+    for i in range(a):
         b+=i
     return b
 
