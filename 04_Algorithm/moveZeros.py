@@ -12,8 +12,17 @@ def moveZeros(array):
     result = []
     zeros = 0
 
-    # your code
-    # your code
+    for num in array:
+      if str(num).isdigit():
+        if num == 0:
+          zeros += 1
+    
+    for i in range(zeros):
+      array.remove(0)
+    for i in range(zeros):
+      array.append(0)
+      
+    result = array
     
     return result
     
